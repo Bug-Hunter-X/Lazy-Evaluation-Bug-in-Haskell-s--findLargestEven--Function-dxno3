@@ -1,0 +1,1 @@
+This Haskell code suffers from a subtle bug related to lazy evaluation and the interaction with infinite lists. The function `findLargestEven` attempts to find the largest even number in a potentially infinite list. However, it will not terminate if the list contains an infinite sequence of odd numbers followed by an even number.
